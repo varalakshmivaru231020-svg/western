@@ -112,10 +112,6 @@
             <img src="{{ asset('images/dentist_checking_patient.png') }}" alt="{{ $siteSettings['doctor_name'] }}" style="width:100%;height:100%;object-fit:cover;object-position:top;display:block;">
           @endif
           <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(10,22,40,0.75) 0%,rgba(10,22,40,0.1) 55%,transparent 100%);"></div>
-          {{-- Meet Our Specialist on image --}}
-          <div style="position:absolute;top:16px;left:16px;z-index:2;">
-            <span style="display:inline-block;background:rgba(125,211,252,0.18);border:1px solid rgba(125,211,252,0.35);color:#7dd3fc;font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:5px 14px;border-radius:50px;backdrop-filter:blur(6px);">Meet Our Specialist</span>
-          </div>
           {{-- Name + title on image bottom --}}
           <div style="position:absolute;bottom:0;left:0;right:0;z-index:2;padding:20px 20px 22px;">
             <h3 style="font-family:'Playfair Display',serif;font-size:20px;color:white;margin:0 0 4px;line-height:1.2;">{{ $siteSettings['doctor_name'] }}</h3>

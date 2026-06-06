@@ -126,6 +126,8 @@
 
       {{-- Right: Content --}}
       <div>
+        <span style="display:inline-block;background:rgba(125,211,252,0.12);border:1px solid rgba(125,211,252,0.25);color:#7dd3fc;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:5px 16px;border-radius:50px;margin-bottom:16px;">Meet Our Specialist</span>
+
         {{-- Divider --}}
         <div style="height:1px;background:rgba(125,211,252,0.15);margin-bottom:24px;"></div>
 
